@@ -5,7 +5,7 @@ from selenium.webdriver.common.keys import Keys
 import os, sys, threading, google.generativeai as genai, time
 from selenium.webdriver.edge.options import Options as EdgeOptions
 
-genai.configure(api_key="AIzaSyBFvev9GtvNMiTyXluAJ-kDNnUGdEgwwPY")
+genai.configure(api_key="")
 model = genai.GenerativeModel('gemini-2.0-flash')
 
 prompt = """
